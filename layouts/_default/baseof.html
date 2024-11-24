@@ -24,7 +24,30 @@
     {{ end }}
     {{ $t.Stop }}
   </head>
-  <body class="my-10">
+  <body>
+    <header
+      class="p-4 sm:p-6 md:p-8 flex justify-between md:text-lg lg:text-xl items-center"
+    >
+      <figure class="font-bold">
+        <span aria-hidden="true" class="hidden sm:inline">🏡</span>
+        Our Little Community
+      </figure>
+      <nav>
+        <ul class="flex justify-end space-x-3">
+          <li class="whitespace-nowrap">
+            <a href="https://app.ourlittlecommunity.org/">Sign in</a>
+          </li>
+          <li class="whitespace-nowrap font-extrabold">
+            <a
+              href="https://app.ourlittlecommunity.org/users/sign_up"
+              class="no-underline"
+            >
+              Try for free ❯
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     {{ block "main" . }}{{ end }}
   </body>
 </html>
