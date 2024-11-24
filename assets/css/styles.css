@@ -14,6 +14,8 @@
 
 body {
   @apply antialiased;
+  @apply bg-gray-50;
 }
 
 @import 'components/markdown.css';
+@import 'components/links.css';

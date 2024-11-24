@@ -1,0 +1,23 @@
+*:focus {
+  @apply outline-none;
+}
+
+a {
+  @apply text-blue-800 underline;
+}
+
+a:focus {
+  @apply bg-yellow-400 text-black underline decoration-4;
+}
+
+a:hover {
+  @apply text-blue-600 decoration-4;
+}
+
+a:focus:hover {
+  @apply text-black;
+}
+
+a:active {
+  @apply bg-transparent;
+}
