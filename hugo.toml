@@ -1,3 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ourlittlecommunity.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Our Little Community'
+
+[outputs]
+  home = ["html"]
+
+[[build.cachebusters]]
+  source = 'layouts/.*'
+  target = 'css'
+
