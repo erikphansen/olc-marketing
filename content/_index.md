@@ -19,4 +19,4 @@ I built Our Little Community for the 32 home development where I live. And it's 
 
 For about a dollar a day — $30/month, to be precise — your entire community gets access. There are no ads. There's no collecting unnecessary personal info or other creepiness. It's just me, a solo developer running an honest business.
 
-The first 30 days are free, so [start setting up your community](https://app.ourlittlecommunity.org/users/sign_up). And I'd love it if you'd <a href="mailto:suggestions@ourlittlecommunity.org"> let me know what you think</a>.
+The first 30 days are free, so [start setting up your community](https://app.ourlittlecommunity.org/users/sign_up). And I'd love it if you'd [let me know what you think](mailto:suggestions@ourlittlecommunity.org).
