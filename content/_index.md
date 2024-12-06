@@ -4,7 +4,7 @@ title: Our Little Community
 
 For years I wanted software to help manage my small HOAs. Something simple, private, and affordable. Something that would make life easier for everyone. I never found what I was looking for, so I built Our Little Community.
 
-There are a lot of solutions out there for _large_ HOAs. The kinds of HOAs that are often managed by professional companies. These products consider 300-unit complexes to be "small" and often have "call us to ask about pricing" models.
+There are a lot of solutions out there for _large_ HOAs. The kinds of HOAs that are often managed by professional companies. These products consider 300-unit complexes to be "small" and often have "call us for a quote" pricing models.
 
 No thank you.
 
