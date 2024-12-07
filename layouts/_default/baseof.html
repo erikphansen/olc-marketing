@@ -2,7 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>{{ .Title }}</title>
+    <title>
+      {{ if .IsHome }}
+        {{ site.Title | markdownify }}
+      {{ else }}
+        {{ (printf "%s | %s" .Title site.Title) | markdownify }}
+      {{ end }}
+    </title>
     <meta name="description" content="{{ .Description }}" />
     {{ $t := debug.Timer "tailwindcss" }}
     {{ with resources.Get "css/styles.css" }}
