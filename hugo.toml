@@ -2,6 +2,20 @@ baseURL = 'https://ourlittlecommunity.org/'
 languageCode = 'en-us'
 title = 'Our Little Community'
 
+# [frontmatter]
+  # date = [':filename', ':default']
+
+[taxonomies]
+  # tags = "tags"
+  # categories = "categories"
+  # month = "month"
+  # year = "year"
+
+[permalinks]
+  blog = "blog/:year/:month/:slug"
+  # month = "posts/:slug"
+  # year = "posts/:slug"
+
 [outputs]
   home = ["html"]
 
@@ -9,3 +23,7 @@ title = 'Our Little Community'
   source = 'layouts/.*'
   target = 'css'
 
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
