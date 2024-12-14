@@ -9,8 +9,11 @@
           {{ .Date | dateFormat "January 2, 2006" }}
         </time>
       </header>
-      {{ .Content }}
+      <div class="markdown">
+        {{ .Content }}
+      </div>
     </article>
+    <hr />
   {{ end }}
 
   {{ template "_internal/pagination.html" . }}

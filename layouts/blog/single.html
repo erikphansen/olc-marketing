@@ -1,9 +1,11 @@
 {{ define "main" }}
-  <main
-    class="mx-auto mb-6 max-w-5xl space-y-3 px-6 text-lg sm:mb-12 sm:space-y-5 sm:px-8 sm:text-xl md:mb-20 md:space-y-8 md:px-16 md:text-2xl lg:mb-24"
-  >
-    <time class="text-base">{{ .Date.Format "January 2, 2006" }}</time>
-    <h1 class="font-bold">{{ .Title | markdownify }}</h1>
+  <main class="mx-auto mt-10 box-content max-w-2xl px-2 text-lg sm:px-6">
+    <time class="block text-center text-base font-medium text-gray-400"
+      >{{ .Date.Format "January 2, 2006" }}</time
+    >
+    <h1 class="mt-6 mb-10 text-center text-4xl font-bold text-gray-800">
+      {{ .Title | markdownify }}
+    </h1>
     <div class="markdown">
       {{ .Content }}
     </div>
