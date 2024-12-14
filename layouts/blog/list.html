@@ -1,20 +1,25 @@
 {{ define "main" }}
-  {{ range .Paginator.Pages }}
-    <article>
-      <header>
-        <h2 class="font-extrabold">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-        <time>
-          {{ .Date | dateFormat "January 2, 2006" }}
-        </time>
-      </header>
-      <div class="markdown">
-        {{ .Content }}
+  <main class="mt-10 divide-y-4 divide-solid divide-gray-300">
+    {{ range .Paginator.Pages }}
+      <div>
+        <article
+          class="mx-auto box-content max-w-2xl px-2 text-lg sm:px-6 py-16"
+        >
+          <header>
+            <time class="block text-center text-base font-medium text-gray-400">
+              {{ .Date | dateFormat "January 2, 2006" }}
+            </time>
+            <h1 class="mt-6 mb-10 text-center text-4xl font-bold text-gray-800">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h1>
+          </header>
+          <div class="markdown">
+            {{ .Content }}
+          </div>
+        </article>
       </div>
-    </article>
-    <hr />
-  {{ end }}
+    {{ end }}
+  </main>
 
   {{ template "_internal/pagination.html" . }}
 {{ end }}
