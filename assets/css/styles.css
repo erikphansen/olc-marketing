@@ -16,5 +16,25 @@ body {
   @apply bg-gray-50;
 }
 
+*:focus {
+  @apply outline-none;
+}
+
+a:hover {
+  @apply underline decoration-4;
+}
+
+a:focus {
+  @apply bg-yellow-400 text-black underline decoration-4;
+}
+
+a:focus:hover {
+  @apply text-black;
+}
+
+a:active {
+  @apply bg-transparent;
+}
+
 @import 'components/markdown.css';
-@import 'components/links.css';
+@import 'components/markdown-home.css';

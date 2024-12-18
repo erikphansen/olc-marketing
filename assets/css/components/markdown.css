@@ -47,15 +47,27 @@
   }
 
   p {
-    @apply mt-2 text-lg leading-relaxed;
+    @apply mt-2 leading-relaxed;
   }
 
   a {
     @apply text-blue-800 underline;
   }
 
+  a:focus {
+    @apply bg-yellow-400 text-black underline decoration-4;
+  }
+
   a:hover {
-    @apply text-blue-600;
+    @apply text-blue-600 decoration-4;
+  }
+
+  a:focus:hover {
+    @apply text-black;
+  }
+
+  a:active {
+    @apply bg-transparent;
   }
 
   ul {
@@ -63,7 +75,7 @@
   }
 
   ol {
-    @apply mt-2 list-decimal pl-4;
+    @apply mt-2 list-decimal pl-8;
   }
 
   li:not(:last-child) {

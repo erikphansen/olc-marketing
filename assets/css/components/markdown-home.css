@@ -1,0 +1,52 @@
+.markdown-home {
+  @apply font-sans text-gray-800;
+
+  p + h2,
+  p + h3,
+  ul + h2,
+  ul + h3,
+  ol + h2,
+  ol + h3 {
+    @apply mt-6;
+  }
+
+  h2 + h3 {
+    @apply mt-2;
+  }
+
+  p {
+    @apply mt-2 leading-relaxed sm:mt-3 md:mt-4 lg:mt-6;
+  }
+
+  a {
+    @apply text-blue-800 underline;
+  }
+
+  a:focus {
+    @apply bg-yellow-400 text-black underline decoration-4;
+  }
+
+  a:hover {
+    @apply text-blue-600 decoration-4;
+  }
+
+  a:focus:hover {
+    @apply text-black;
+  }
+
+  a:active {
+    @apply bg-transparent;
+  }
+
+  ul {
+    @apply mt-2 list-disc pl-4 sm:mt-3 md:mt-4 lg:mt-6 md:pl-6;
+  }
+
+  ol {
+    @apply mt-2 list-decimal pl-8;
+  }
+
+  li:not(:last-child) {
+    @apply mb-2 sm:mb-3 md:mb-4 lg:mb-6;
+  }
+}
