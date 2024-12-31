@@ -1,21 +1,33 @@
 .markdown-home {
   @apply font-sans text-gray-800;
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-sans font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-xl sm:text-2xl md:text-3xl;
+  }
+
   p + h2,
   p + h3,
   ul + h2,
   ul + h3,
   ol + h2,
   ol + h3 {
-    @apply mt-6;
+    @apply mt-6 md:mt-8 lg:mt-10;
   }
 
   h2 + h3 {
-    @apply mt-2;
+    @apply mt-3;
   }
 
   p {
-    @apply mt-2 leading-relaxed sm:mt-3 md:mt-4 lg:mt-6;
+    @apply mt-3 leading-relaxed sm:mt-4 md:mt-5 lg:mt-6;
   }
 
   a {
@@ -39,14 +51,18 @@
   }
 
   ul {
-    @apply mt-2 list-disc pl-4 sm:mt-3 md:mt-4 lg:mt-6 md:pl-6;
-  }
-
-  ol {
-    @apply mt-2 list-decimal pl-8;
+    @apply mt-3 list-disc pl-4 sm:mt-4 md:mt-5 lg:mt-6 md:pl-6;
   }
 
   li:not(:last-child) {
-    @apply mb-2 sm:mb-3 md:mb-4 lg:mb-6;
+    @apply mb-3 sm:mb-4 md:mb-5 lg:mb-6;
+  }
+
+  blockquote {
+    @apply mt-6 border-l-4 border-gray-200 pl-3 lg:border-l-8 lg:pl-4;
+  }
+
+  h2 + blockquote {
+    @apply mt-1;
   }
 }
