@@ -2,7 +2,7 @@
 title: Our Little Community
 ---
 
-Keeping a small HOA running smoothly is hard. Community members have questions and requests. Documents need to be managed. You need to keep everyone in the loop and keep things from falling through the cracks.
+Keeping a small HOA running smoothly isn't easy and it doesn't happen by itself. Community members have questions and requests. Documents need to be managed. You need to keep everyone in the loop and keep things from falling through the cracks.
 
 Because professional management is too expensive and impersonal, small communities usually end up managing themselves. And because most HOA management software is made for large communities, small communities usually end up managing everything with email.
 
@@ -29,7 +29,7 @@ Our Little Community offers a set of useful features tailored to the needs of sm
 You can refer to the [Guide](https://guide.ourlittlecommunity.org/) for more details, but here are the basics:
 
 - A [community directory](https://guide.ourlittlecommunity.org/features/directory) lists owners and renters (so neighbors won't be strangers).
-- The [announcements](https://guide.ourlittlecommunity.org/features/announcements) section keeps everyone in the loop. And serves as a historical record of things that have happened in the past.
+- The [announcements](https://guide.ourlittlecommunity.org/features/announcements) section lets admins keep everyone in the loop. And serves as a historical record of things that have happened in the past.
 - The HOA Board and committees have their own pages to [handle requests](https://guide.ourlittlecommunity.org/features/requests) (so information isn't lost in private email).
 - A place to store community [documents](https://guide.ourlittlecommunity.org/features/documents) (so everyone knows where the CC&Rs and [meeting minutes](https://guide.ourlittlecommunity.org/features/minutes) are).
 - And if you want to allow people to [reserve shared facilities](https://guide.ourlittlecommunity.org/features/community-spaces), such as a BBQ area or pool, you can do that, too.
