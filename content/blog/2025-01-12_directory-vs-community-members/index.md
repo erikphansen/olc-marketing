@@ -1,17 +1,17 @@
 +++
-title = 'The Directory vs Memberships'
+title = 'The Directory vs Community Members'
 date = '2025-01-12'
-slug = 'directory-vs-memberships'
+slug = 'directory-vs-community-members'
 author = "Erik Hansen"
 +++
 
-A user just asked me to clarify who gets Announcements notifications via email. The short answer is: all of the homeowners and admins (and optionally renters) listed in Memberships page.
+A user just asked me to clarify who gets Announcements notifications via email. The short answer is: all of the homeowners and admins (and optionally renters) listed on the Community Members page.
 
-But at the core of the question was some understandable confusion about the difference between the Directory and the Memberships page. I'll try to break it down.
+But at the core of the question was some understandable confusion about the difference between the Directory and the Community Members page. I'll try to break it down.
 
-## Memberships
+## Community Members
 
-Admins have access to the Memberships page. It can be found under Settings in the main menu. Memberships can be thought of as _the source of truth._ The Memberships pages lists _all of the people who have access to your community._ For every member it shows which home (or homes) they own (or rent). The email address by each person's name is the one that person uses to sign into Our Little Community. It's the email address where they receive Our Little Community notifications. Memberships also highlights where you can see who the admins are and manage who those admins are. If you want to remove someone from your community so they can no longer sign in (maybe they moved out?), you can do that here. If you want to add and invite a new community member, you can do that here as well.
+Admins have access to the Community Members page. It can be found under Settings in the main menu. Community Members can be thought of as _the source of truth._ The Community Members pages lists _all of the people who have access to your community._ For every member it shows which home (or homes) they own (or rent). The email address by each person's name is the one that person uses to sign into Our Little Community. It's the email address where they receive Our Little Community notifications. Community Members also highlights who the admins are and allows you to give and revoke admin privileges. If you want to remove someone from your community so they can no longer sign in (maybe they moved out?), you can do that here. If you want to add and invite a new community member, you can do that here as well.
 
 ## The Directory
 
@@ -23,4 +23,4 @@ If an owner really wanted to, they _could_ delete their name and email address a
 
 ## A slightly technical explanation
 
-As far as the Our Little Community app is concerned, there isn't _really_ a one-to-one relationship between a member of a community (which is what is shown on the Memberships page) and a person listed on a home's page in the Directory. While in most cases someone's name and email address on the Memberships page will be identical to their name and email address as it appears on the Directory, they don't _need_ to be. If a user changes their email address in the Directory, that won't change which email address they use to sign into Our Little Community. Similarly, if they _do_ change which email address they use to sign into Our Little Community (which they can do by clicking on their name in the main menu), that change will be reflected in the Memberships page, but their email address on the Directory _will not_ automatically change.
+As far as the Our Little Community app is concerned, there isn't _really_ a one-to-one relationship between a member of a community — what's shown on the Community Members page — and a person listed on a home's page in the Directory. While in most cases someone's name and email address on the Community Members page will be identical to their name and email address as it appears on the Directory, they don't _need_ to be. If a user changes their email address in the Directory, that won't change which email address they use to sign into Our Little Community. Similarly, if they _do_ change which email address they use to sign into Our Little Community (which they can do by clicking on their name in the main menu), that change will be reflected on the Community Members page, but their email address on the Directory _will not_ automatically change.
